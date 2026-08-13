@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "GeoEdit: Geometry-Aware Object Editing via Dual-Branch Denoising"
+message: "If you use this software, please cite the GeoEdit paper."
+type: software
+authors:
+  - family-names: He
+    given-names: Yi
+  - family-names: Wang
+    given-names: Jiangming
+  - family-names: Wang
+    given-names: Xinyu
+  - family-names: Fong
+    given-names: Mark
+  - family-names: Zhang
+    given-names: Songchun
+  - family-names: Xue
+    given-names: Yuxuan
+  - family-names: Zheng
+    given-names: Hai-Tao
+  - family-names: Ma
+    given-names: Yue
+version: 0.1.0
+date-released: 2026-08-12
+license: Apache-2.0
+repository-code: "https://github.com/Heey731/GeoEdit"
+url: "https://geo-edit.github.io"
+identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2606.30003"
+    description: "GeoEdit arXiv preprint"
+

@@ -1,0 +1,14 @@
+GeoEdit
+Copyright 2026 GeoEdit authors
+
+This distribution includes modified source code from DiffSynth-Studio,
+Copyright 2023 Zhongjie Duan, licensed under the Apache License 2.0.
+
+The modified DiffSynth runtime is included under the `diffsynth/` directory.
+GeoEdit adds dual-branch denoising, warm-start initialization, and masked
+latent injection for Wan2.2-VACE inference.
+
+Model weights are not distributed with this repository. Users must obtain
+them from their respective providers and comply with the applicable model
+licenses.
+

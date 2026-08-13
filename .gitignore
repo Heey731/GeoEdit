@@ -1,0 +1,28 @@
+# Python environments and caches
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Models and generated artifacts
+/models
+/outputs/
+/data/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.mp4
+*.mov
+*.avi
+*.webm
+*.log
+
+# Local configuration
+.env
+.idea/
+.vscode/
+.DS_Store

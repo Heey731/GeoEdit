@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geoedit"
+version = "0.1.0"
+description = "Geometry-Aware Object Editing via Dual-Branch Denoising"
+readme = "README.md"
+requires-python = ">=3.10.1"
+license = {text = "Apache-2.0"}
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision",
+    "transformers",
+    "imageio[ffmpeg]",
+    "safetensors",
+    "einops",
+    "sentencepiece",
+    "protobuf",
+    "modelscope",
+    "ftfy",
+    "pandas",
+    "accelerate",
+    "peft",
+    "datasets",
+]
+
+[project.scripts]
+geoedit-infer = "geoedit.inference:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["geoedit", "geoedit.*", "diffsynth", "diffsynth.*"]
+
